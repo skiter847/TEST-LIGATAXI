@@ -8,9 +8,11 @@ Create env `python3 -m venv env`
 
 run env `source env/bin/activate`
 
-install requirements `pip install -r requirements.txt`
+install requirements ` cd app && pip install -r requirements.txt`
 
-run `docker-compose up -d && python3 main.py`   
+run docker `docker-compose up -d`
+
+run bot 'cd ../app && python3 main.py'
 
 
 
