@@ -12,7 +12,7 @@ install requirements ` cd app && pip install -r requirements.txt`
 
 run docker `docker-compose up -d`
 
-run bot 'cd ../app && python3 main.py'
+run bot `cd ../app && python3 main.py`
 
 
 
